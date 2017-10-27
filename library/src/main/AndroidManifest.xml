@@ -7,7 +7,8 @@
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application>
-        <activity android:name="app.akexorcist.bluetotohspp.library.DeviceList" />
+        <activity android:name="app.akexorcist.bluetotohspp.library.DeviceList"
+            android:theme="@style/Theme.AppCompat"/>
     </application>
 
 </manifest>
